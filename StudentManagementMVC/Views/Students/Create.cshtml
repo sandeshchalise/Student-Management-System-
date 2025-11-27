@@ -1,0 +1,67 @@
+@model StudentManagementMVC.Models.Student
+
+<h2>Add Student</h2>
+
+<style>
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+
+    input.form-control {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    input.form-control:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    button.btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button.btn-success {
+        background-color: #28a745;
+        color: white;
+    }
+
+    button.btn-success:hover {
+        background-color: #218838;
+    }
+
+    .mt-2 {
+        margin-top: 10px;
+    }
+
+    .mt-3 {
+        margin-top: 15px;
+    }
+</style>
+
+<form method="post">
+    <input asp-for="FirstName" class="form-control" placeholder="First Name"/>
+    <input asp-for="LastName" class="form-control mt-2" placeholder="Last Name"/>
+    <input asp-for="Email" class="form-control mt-2" placeholder="Email"/>
+    <input asp-for="DateOfBirth" type="date" class="form-control mt-2"/>
+    <button class="btn btn-success mt-3">Save</button>
+</form>

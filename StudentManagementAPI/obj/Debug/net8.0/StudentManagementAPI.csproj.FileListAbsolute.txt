@@ -1,0 +1,7 @@
+C:\Users\Sandesh Chalise\Downloads\StudentManagementSolution\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.csproj.AssemblyReference.cache
+C:\Users\Sandesh Chalise\Downloads\StudentManagementSolution\StudentManagementAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Sandesh Chalise\Downloads\StudentManagementSolution\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sandesh Chalise\Downloads\StudentManagementSolution\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.AssemblyInfoInputs.cache
+C:\Users\Sandesh Chalise\Downloads\StudentManagementSolution\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.AssemblyInfo.cs
+C:\Users\Sandesh Chalise\Downloads\StudentManagementSolution\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.csproj.CoreCompileInputs.cache
+C:\Users\Sandesh Chalise\Downloads\StudentManagementSolution\StudentManagementAPI\obj\Debug\net8.0\StudentManagementAPI.MvcApplicationPartsAssemblyInfo.cache

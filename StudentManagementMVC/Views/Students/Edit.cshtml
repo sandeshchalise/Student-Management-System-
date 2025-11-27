@@ -1,0 +1,59 @@
+@model StudentManagementMVC.Models.Student
+
+<h2>Edit Student</h2>
+
+<style>
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+
+    input.form-control {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button.btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button.btn:hover {
+        background-color: #0056b3;
+    }
+
+    .mt-2 {
+        margin-top: 10px;
+    }
+
+    .mt-3 {
+        margin-top: 15px;
+    }
+</style>
+
+<form method="post">
+    <input asp-for="FirstName" class="form-control"/>
+    <input asp-for="LastName" class="form-control mt-2"/>
+    <input asp-for="Email" class="form-control mt-2"/>
+    <input asp-for="DateOfBirth" type="date" class="form-control mt-2"/>
+    <button class="btn btn-primary mt-3">Update</button>
+</form>
